@@ -1,0 +1,28 @@
+
+
+
+
+
+POST
+{{base_url}}/api/v1/store/items/filter/list
+															
+
+
+Issue manageemnt store :
+POST : {{base_url}}/api/v1/issue/management/store
+{
+    "unit_id": "1",
+    "item_ids": "2,5,6",
+    "issue_date": "2022-05-05",
+    "from_store_id": "1",
+    "to_store_id": "5",
+    "issue_reason": "test reason",
+    "remark": "test remark",
+    "amount": "10"																			
+}
+
+
+
+
+
+
